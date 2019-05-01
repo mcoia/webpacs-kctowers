@@ -1,0 +1,30 @@
+div .bibResourceSidebar {
+    display:block;
+}
+
+.bibResourceSidebar {
+    width:208px;
+}
+
+.libraryh3lp {
+    margin-bottom:1em;
+    margin-right: 10px;
+}
+.libraryh3lp iframe {
+  width: 100%;
+}
+
+.mainColumn {
+    width:100%;
+}
+
+.rightBib {
+    float:right;
+    width:20%;
+}
+
+
+.rightColumn {
+    display:none;
+}
+

@@ -1,0 +1,83 @@
+#accessibleForm {
+    width:750px;
+}
+
+/*.bibDisplayContentMain, .resourceDisplayContentMain { width: 65%; } */
+
+
+
+.bibDisplayContentMore { border-top:1px dashed #767C70; clear:both; margin-bottom:15px; padding-top:20px; }
+
+.bibDisplayJacket {
+    margin-left:10px;
+}
+
+.bibDisplayItems .navButton, .bibDisplayItems .navButtonOneLine {display: none; }
+
+.bibDisplayItems .centerButton { display:block; text-align:center; width:100%; background-position: center top; }
+
+.bibDisplayJacket  { float:left; display:inline; width:100px; text-align:center;}
+
+.bibResourceTable { display:none; }
+
+div .bibResourceSidebar { display:none; }
+
+.briefcitCell {
+    border-bottom-color: #858484;
+}
+
+.briefcitRow { padding-left:5%; width:100%; }
+
+.browseSuperEntry td {font-weight: bold;}
+
+.browseResourceTable { display:none; }
+
+#chat_icon { display:block; }
+
+.clusterLogo { padding-right: 150px; }
+
+.linkBanner {
+    background-color:#000000;
+    padding:0;
+}
+
+.linkBannerLeft ul, .linkBannerRight ul{
+    height:25px;
+    margin:6px 0 3px;
+}
+
+
+#myRatings { display:block; }
+
+.navigationRowRecord .centerButton { display:none; }
+
+.navigationRowRecord #list { display:none; }
+
+/*.pageContentColumn {
+float:right;
+margin-left:1%;
+padding:1%;
+width:71%;
+}
+*/
+
+
+.rateLabel { width:8.5%; }
+
+.reserveBibs td  { max-width:60px; text-align: center; } 
+
+.rrUserQuery {
+    color: #457029;
+}
+
+.searchNavBut {
+    margin: 0 10px 0 5px;
+}
+
+#specializedSearch { margin-bottom:0px; }
+
+.topLogoImage {
+    padding:40px 20px;
+}
+
+#worldcat { display:inline; }

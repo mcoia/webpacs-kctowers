@@ -1,0 +1,199 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- This File Last Changed: 29 Apr 2010 -->
+<head>
+<title>KC-Towers Catalog - Advanced Keyword Search</title>
+<script language="JavaScript">
+<!-- Hide the JS
+startTimeout(600000, "/");
+// -->
+
+</script>
+<noscript>
+<meta http-equiv="Refresh" content="600;URL=/" />
+</noscript>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+</head>
+<!--{advancedsearchbody}-->
+<!--{toplogo}-->
+<script>
+$(document).ready(function () {
+    var i = $("#advancedSearchBoxes input").length;
+    var j = i + 1;
+    var moreSearchBoolean = '<select name="boolean' + i + '"><option value="%20and%20" selected="selected">And</option><option value="%20and%20not%20">And not</option><option value="%20or%20">Or</option><option value="%20near%20">Near</option><option value="%20before%20">Before</option><option value="%20after%20">After</option></select><br />'
+    var moreSearchField = '<select name="fieldLimit' + j + '"><option value="" selected="selected">Any Field:</option><option value="a:">Author:</option><option value="t:">Title:</option><option value="d:">Subject (LC):</option><option value="N:">Note:</option></select>'
+    var moreSearchInput = '<input style="margin: 0 4px;" maxlength="75" size="35" name="searchText' + j + ' " />'
+
+    $("#addMore").click(function() {
+        $("#advancedSearchBoxes").append(moreSearchBoolean);
+        $("#advancedSearchBoxes").append(moreSearchField);
+        $("#advancedSearchBoxes").append(moreSearchInput);
+    });
+});
+</script>
+
+<div class="pageContentColumn"><!-- content container -->
+
+<div class="pageContentInner mainSearch">
+<!--{msg}-->
+<!--{spellcheck}-->  
+<div class="miscButtons">
+<!--{innreach}-->
+</div>
+  <div class="pageNavColumn"><!-- nav menu column-->
+<img src="/screens/owens.png">
+<ul id="rightCol">
+<li><a href="http://libguides.nwmissouri.edu/ask">Ask a Librarian</a></li>
+<li><a href="http://www.nwmissouri.edu/library/ill/index.htm">Interlibrary Loan</a></li>
+<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeA14N-HyI8mIInVJ2-4q8OqT9GBtOWPggHrXiQJsSvqmKS6g/viewform">Suggest a Purchase</a></li>
+<li><a href="/search~S18/ftlist">Featured List</a></li>
+<li><a href="/patroninfo">Your Account</a></li>
+<li><a href="https://www.nwmissouri.edu/library/hours.html">Library Hours</a></li>
+<li><a href="http://libguides.nwmissouri.edu/CatFAQ">FAQs</a></li>
+</ul>
+        
+      
+</div>
+
+    <div id="tab-1" class="tabContent">
+ 
+
+<div class="innerTab">
+
+<!--{advancedsearchformbegin}-->
+<fieldset>
+<legend>Enter Search Terms</legend>
+<div class="formEntryArea"  id="advancedSearchBoxes">
+<!--{advancedsearch}-->
+</div>
+<div class="formEntryArea">
+<a href="#" id="addMore">+ Add more search terms</a>
+</div>
+<input type="hidden" name="startLimit" >
+<div class="formEntryArea">
+<!--{availlim}-->
+</div>
+<div class="formButtonArea">
+<span>
+<!--{advancedsubmit}-->
+</span>
+<span>
+<!--{clearform}-->
+</span>
+</div>
+</fieldset>
+
+<div class="formLeft advancedSearch">
+<fieldset>
+<legend>Add Limits (Optional)</legend>
+
+<div class="formEntryArea">
+<table border="0">
+<tr>
+<td>
+<label for="searchscope">
+Library
+</label>
+</td>
+<td>
+<!--{scope}-->
+</td>
+</tr>
+</table>
+</div>
+
+<div class="formEntryArea">
+<!--{branch}-->
+</div>
+<div class="formEntryArea">
+<!--{mattype}-->
+</div>
+<div class="formEntryArea">
+<!--{lang}-->
+</div>
+<div class="formEntryArea">
+<!--{DOCDATE}-->
+</div>
+<div class="formEntryArea">
+<!--{publish}-->
+</div>
+<div class="formEntryArea" id="form3PartAdvLimitSort">
+<!--{sort}-->
+</div>
+</fieldset>
+<input type="hidden" name="endLimit" >
+</div> <!-- formLeft -->
+
+
+
+<!--
+<div id="otherSearches">
+<ul>
+<lh>Other Searches:</lh>
+<li><a href="http://rl6vs2mp4m.search.serialssolutions.com/">Journal Title</a></li>
+<li><a href="/search/b">Course Reserves</a></li>
+<li><a href="/search/q">Author and Title</a></li>
+<li id="m"><a href="/search&searchindex=m">Children's Subjects</a></li>
+</ul>
+<ul>
+<lh>Number Searches:</lh>
+<li id="e"><a href="/search&searchindex=e">Dewey Decimal</a></li>
+<li id="c"><a href="/search&searchindex=c">Library of Congress</a></li>
+<li id="f"><a href="/search&searchindex=f">Local</a></li>
+<li id="g"><a href="/search&searchindex=g">Government Documents</a></li>
+<li id="i"><a href="/search&searchindex=i">ISBN or ISSN</a></li>
+<li id="o"><a href="/search&searchindex=o">OCLC</a></li>
+</ul>
+</div>
+-->
+
+<div class="formRight">
+<table class="tipsTable">
+<caption>Search Tips</caption>
+<!-- <tr valign="top"><th align="left">Adjacency</th>
+<td>Multiple words are searched together as one phrase.<br>
+<span style="text-decoration:underline">Example</span> : world health organization</td>
+</tr> -->
+<tr><th>Wildcards</th>
+<td>
+Words may be right-hand truncated using an asterisk ('*') in place of other characters. <!-- Use '**' for open-ended truncation of over five characters.--> The '*' wildcard may also be embedded in a search string. You may use '?' to replace a single character anywhere within a word.<br>
+<span style="text-decoration:underline">Examples</span> : environment* polic*, wom?n</td>
+</tr>
+<tr><th>Boolean Operators</th>
+<td>
+Use "and" or "or" to specify multiple words in any field, any order. Use "and not" to exclude words.<br>
+<span style="text-decoration:underline">Example</span> : stocks and bonds<br>
+<span style="text-decoration:underline">Example</span> : (alaska or canada) and (adventure and not vacation)</td>
+</tr>
+<tr><th>Field limits</th>
+<td>
+A field limit causes the system to search only the specified field for the specified word(s).</td>
+</tr>
+<tr>
+<th>Grouping</th>
+<td>
+Keyword search results are usually grouped by relevance to bring the most likely titles to the top of the list. Each group represents a similar level of relevance and results are sorted within the group by date or title. To get an ungrouped result set, use boolean operators to form a complex query.
+</td>
+</tr>
+<!-- <tr valign="top"><th align="left">Proximity Operators</th>
+<td>
+Use "near" to specify words close to each other, in any order.<br>
+<span style="text-decoration:underline">Example</span> : california near university</td>
+</tr> -->
+</table>
+</div> <!-- formRight -->
+</div> <!-- form3PartBelow -->
+
+<!--{advancedsearchformend}-->
+
+
+
+</div>
+
+</div><!--pageContentInner -->
+</div><!--pageContentColumn-->
+<!--{botlogo}-->
+</body>
+</html>

@@ -1,0 +1,23 @@
+.clusterLogo { padding-right: 150px; }
+
+.topLogoImage {
+    padding: 30px 15px;
+}
+
+.topLogoImage img {
+    display:inline;
+}
+
+.briefcitJacket, .bibDisplayJacketImage { visibility:hidden; }
+
+.pageContentColumn {
+float:right;
+margin-left:1%;
+padding:1%;
+width:71%;
+}
+
+.bibDisplayItems .navButton, .bibDisplayItems .navButtonOneLine {display: none; }
+
+
+.navigationRowRecord .resourceButton, .navigationRowRecord #requestButton {display:inline-block;vertical-align:text-top; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; text-decoration:none; }

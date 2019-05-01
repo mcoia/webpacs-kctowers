@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 09 June 2010 -->
+<head>
+<title>KC-Towers Catalog</title>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+<!--<link rel="stylesheet" type="text/css" href="/screens/stylesmain.css" > Un-comment to offer a larger logo on mainmenu.-->
+</head>
+<body>
+<!--{toplogo}-->
+<div class="pageContentInner mainSearch">
+<div class="pageNavColumn"><!-- nav menu column-->
+<img src="/screens/owens.png">
+<ul id="rightCol">
+<li><a href="http://libguides.nwmissouri.edu/ask">Ask a Librarian</a></li>
+<li><a href="http://www.nwmissouri.edu/library/ill/index.htm">Interlibrary Loan</a></li>
+<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeA14N-HyI8mIInVJ2-4q8OqT9GBtOWPggHrXiQJsSvqmKS6g/viewform">Suggest a Purchase</a></li>
+<li><a href="/search~S18/ftlist">Featured List</a></li>
+<li><a href="/patroninfo">Your Account</a></li>
+<li><a href="https://www.nwmissouri.edu/library/hours.html">Library Hours</a></li>
+<li><a href="http://libguides.nwmissouri.edu/CatFAQ">FAQs</a></li>
+</ul>
+        
+</div>
+<div class="pageContentColumn"><!-- content container -->
+
+
+
+    <div id="tab-1" class="tabContent">
+ 
+
+<div class="innerTab">
+<div class="innerTabForm X">
+<select name="searchtype" class="searchtype">
+<option value="X" selected="selected">Keyword
+<option value="t">Title
+<option value="a">Author
+<option value="d">Subject 
+</select>
+<form action="/search~S18/X" method="get">
+
+<label for="searchtype" class="accessibleAddInfo">Search type</label>
+<input maxlength="75" name="SEARCH" size="28" >
+<select name="m">
+<option value="">All Collections</option>
+<option value="2">E-Books</option>
+<option value="i">Spoken Audio</option>
+<option value="g">Video/Film</option>
+</select>
+<!--{nosort}-->
+<input type="hidden" name="searchscope" value="18">
+<span class="nowrap formButtonArea">
+
+<input value="Search" type="submit">
+
+</span>
+
+</form>
+</div>
+<div class="innerTabForm otherIndexes">
+<form action="/search/" method="get" name="search" id="search">
+
+<label for="searchtype" class="accessibleAddInfo">Search type</label>
+<select name="searchtype" class="searchtype">
+<option value="X" selected="selected">Keyword
+<option value="t">Title
+<option value="a">Author
+<option value="d">Subject
+</select>
+<!--{nosort}-->
+<input maxlength="75" name="searcharg" size="28" >
+<input type="hidden" name="searchscope" value="18">
+<span class="nowrap formButtonArea">
+
+<input value="Search" type="submit">
+
+</span>
+
+</form>
+</div>
+<div id="exampleText">
+
+<p>Search for a word or words. For example:</p>
+
+<ul>
+<li>nanotechnology</li>
+<li>"public relations" and "team-based approach"</li>
+<li>(university or college) and students</li>
+<li>classroom and discipline</li>
+<li>biotechnology and "pest management"</li>
+</ul>
+
+</div>
+
+
+</div>
+
+<div id="otherSearches">
+<ul>
+<lh>Other Searches:</lh>
+<li><a href="/search/X">Advanced Search</a></li>
+<li><a href="http://eds.b.ebscohost.com/eds/search/basic?sid=ae568ace-78fe-4acf-b4d2-c9116646d068%40sessionmgr120&vid=0&sdb=edspub&tid=3000EP">Journal Title</a></li>
+<li><a href="/search/b">Course Reserves</a></li>
+<li><a href="/search/q">Author and Title</a></li>
+<li id="m">Children's Subjects</li>
+</ul>
+<ul>
+<lh>Number Searches:</lh>
+<li id="e">Dewey Decimal</li>
+<li id="c">Library of Congress</li>
+<li id="f">Local</li>
+<li id="g">Government Documents</li>
+<li id="i">ISBN or ISSN</li>
+<li id="o">OCLC</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+
+</div><!--pageContentInner -->
+</div><!--pageContentColumn-->
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].searcharg.focus(); }
+catch(err) {}
+//--><!]]></script>
+</body>
+</html>

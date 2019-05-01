@@ -1,0 +1,237 @@
+<!--{toplogo}-->
+<script>
+$(document).ready(function () {
+    var ISSN = $(".bibInfoLabel:contains('ISSN')")
+    if (ISSN.length > 0){
+        var title = $(".bibInfoLabel:contains('Title'):eq(0)").siblings(".bibInfoData").text()
+      var newSearchTerm = title.replace(".", " ");
+       $("#fullText").html("<a href='http://rl6vs2mp4m.search.serialssolutions.com/?V=1.0&N=100&L=RL6VS2MP4M&S=AC_T_M&C=" + encodeURIComponent(newSearchTerm) + "'><img src='/screens/checkfulltext.png' alt='Check for Full Text'></a>")
+
+    }
+});
+</script>
+<!--
+<div class="pageNavColumn">
+<h1 class="navHeader">Additional Info</h1>
+<div id="amazon" class="button" name="amazon"></div>
+<div id="googlebooks" class="button" name="googlebooks"></div>
+<div id="fullText" class="button" name="fullText"></div>
+</div>
+-->
+
+<div class="pageContentColumn"><!-- content container -->
+<!--{ifbibdisplay}-->
+<!--{xif}-->
+<!--{catedit}-->
+
+<div id="bibDisplayBody">
+<div class="navigationRowRecord">
+<!--{navrow}-->
+<!--{innreach}-->
+</div>
+<div id="bibDisplayContent">
+<div class="bibSearch">
+<!--{searchtool}-->
+<div class="bibSearchHistory">
+<!--{searchhistory}-->
+</div>
+</div><!-- bibSearch -->
+
+<div class="syn_skipthis">
+<div class="bibPager">
+<!--{pager}-->
+</div>
+</div>
+
+<div class="bibClear"></div>
+
+<div class="bibDisplayJacket">
+<div class="bibDisplayJacketImage">
+<!--{bibimage}-->
+</div>
+<div class="bibMedia">
+<!--{media}-->
+</div>
+</div>
+
+<div class="bibDisplayContentMain">
+
+<!-- just a placeholder for the sms form -->
+<div id='sms' style="visibility:hidden;display:none">
+</div>  
+
+<!--{recordinfo:a}-->
+
+<h1 class="bibDisplayTitle">
+<!--{recordinfo:t}-->
+</h1>
+
+<!--{recordinfo:pRe}-->
+
+<!--{ifhaspatrate}-->
+<div class="bibDisplayRatings">
+    <!--{ratings}-->
+</div>
+<!--{xif}-->
+
+<!--{booking}-->
+<!--{holdingslink}-->
+<div class="testlinkeddocs">
+<!--{linkeddocs}-->
+</div>
+<div class="bibDisplayUrls">
+<!--{URLS}-->
+</div>
+
+<!--{bloblinks}-->
+<!--{imagelinks}-->
+<!--{artthumb}-->
+<!--{xmlframe}-->
+<!--{holds}-->
+<!--{holdings}-->
+
+<div class="bibDisplayItems">
+<div class="bibDisplayItemsMain">
+<!--{items}-->
+<!--{navrow}-->
+<a href="#here" name=smsbutton id=smsbutton onClick="showsms();return false;">
+<div id="smsfeatures">
+    <span class="button centerButton">
+    <img src="/screens/ico_phone.gif" border=0 style="margin:0">
+       <span class="buttonText">Text item location</span>
+    </span>
+    </div>
+   
+</a>
+</div>
+</div>
+
+<!--{orders}-->
+
+<div class="bibDisplayContentMore">
+<!--{ifTOC}-->
+<!--{TOC}-->
+<!--{xif}-->
+<!--{recordinfo:#}-->
+</div>
+
+<!--{IFELCONTENT:365}-->
+<!-- Replace the number for your enhanced content in Pathfinder Pro -->
+<div class="bibDisplayContentMore">
+<ul id="elContent">
+<!--{ELCONTENT:365}-->
+</ul>
+</div>
+<!--{xif}-->
+
+<div class="bibDisplayContentMore bibDisplayReviews">
+<div class="bibDisplayPermLink actionButtonArea">
+<!--{recordlink}-->
+</div>
+<!--{patronreviewsfull}-->
+
+</div>
+
+</div>
+
+
+</div><!-- close bibDisplayContent -->
+<div class="clear"></div>
+</div><!-- close bibDisplayBody -->
+</div><!-- pageContent  -->
+
+    <!-- a quick script to hide the SMS menu if there are no items. same as the javascript in the SMS form, but it's really just to see if the items exist.  If they don't, we hide the buttons -->
+       <script>
+       var f = document.getElementById('bib_detail');
+       try { 
+        var itms = document.getElementById('bib_items');
+        var tr = itms.getElementsByTagName('TR');
+        for(i = 1; i < tr.length; i++) {
+         var x=tr[i].getElementsByTagName('TD');
+         if (x.length == 3) {
+          var loc = x[0].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+          var call = x[1].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+          var status = x[2].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+         }
+        }
+       } catch (e) {
+         document.getElementById('smsfeatures').style.visibility='hidden';
+       }
+
+    </script>
+<script type='text/javascript'> 
+    var ProcessResults = function(bookInfo) {
+        var buttonImg = "<img src='/screens/googlebutton.gif' alt='Google Preview'>"
+        var textGBS = "";
+        for (ISBN in bookInfo) {
+            var b = bookInfo[ISBN];
+            var bookJacket =  "<img src='" + b.thumbnail_url + "&zoom=1'>";
+            //form the text of Google Book contents
+            if (b && (b.preview == "full")) {
+                textGBS = "<p>Full Text</p>";
+                //"Google Book Search";
+                document.getElementById("googlebooks").innerHTML = "<a href='" + b.preview_url + "'>" + buttonImg + "</a>"
+            }
+            else if (b && (b.preview == "partial")) {
+                textGBS = "<p>Limited Preview</p>"
+                //"Preview at Google Book Search";
+                document.getElementById("googlebooks").innerHTML = "<a href='" + b.preview_url + "'>" + buttonImg + "</a>"
+            }
+            else if (b && (b.preview == "noview")) {
+                //"Preview at Google Book Search";
+                if (b.thumbnail_url != undefined){
+                document.getElementById("googlebooks").innerHTML = "<a href='" + b.preview_url + "'>" + buttonImg + "</a>"
+                }
+            }
+            else {
+                //document.getElementById("googlebooks").innerHTML = "None available.";
+            }
+    }
+}
+</script>
+<script type='text/javascript'>
+       
+var ISBNcell = $(".bibInfoLabel:contains('ISBN')").siblings(".bibInfoData");
+var ISBN = ISBNcell.text().replace(/[^0123456789]/g,"");
+var ISBNrow = ISBNcell.closest("tr");
+var ISBN2 = ISBNrow.next().text().replace(/[^0123456789]/g,"");
+var mattype = $(".bibMedia").html()
+var film = mattype.search("film");
+
+var cburl = "http://books.google.com/books";
+// Retrieve the info for these bibkeys
+var api_url = cburl + "?jscmd=viewapi&bibkeys=ISBN:" + ISBN;
+var s = document.createElement("script");
+s.setAttribute("type", "text/javascript");
+//alert("searching for: " + ISBN);
+s.setAttribute("src", "http://books.google.com/books?jscmd=viewapi&bibkeys=ISBN:" + ISBN + "&callback=ProcessResults");
+document.documentElement.firstChild.appendChild(s);
+//alert (api_url);
+
+</script>
+<script>
+
+	  if (film == -1) {
+            
+        
+	    
+	       if (ISBN.length == 13) {
+		    if (ISBN2.length == 10) {
+		        var amazon_isbn = ISBN2;
+	         }
+		        else {
+			      document.getElementById('amazon').style.display = 'none';
+			 }
+	       
+	       } else if (ISBN.length == 10) {
+	            var amazon_isbn = ISBN;;
+	       }
+	  
+	       else {
+                    document.getElementById('amazon').style.display = 'none';
+               }
+            document.getElementById("amazon").innerHTML = '<a href="http://amazon.com/dp/' + amazon_isbn + '" target="_blank"><img src="screens/amazon.png"></a>';
+               
+          }
+</script>
+<!--{botlogo}-->
