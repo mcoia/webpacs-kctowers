@@ -88,14 +88,21 @@ return false;
 }
 
 
-   function sendSMS(location) {
+  function sendSMS(location) {
+	var title = encodeURIComponent(
+		$(".bibDisplayTitle td.bibInfoData")
+			.html()
+			.replace(/<\/?[^>]+(>|$)/g, "")
+			.replace(/\:.*$/g,'')
+			.substring(1,35).trim()
+	);
     var frm = document.sms_form;			// get the SMS form
 	var phone = frm.phone.value;			// get the phone #
 	phone = phone.replace(/[^\d]/ig,"");	// remove all non-digit characters
 	if (phone.length == 10) {				// if 10 chars, we're good
 	var url = smsurl;						// start creating the URL
 		url += "&number="+encodeURIComponent(frm.phone.value);	// html escape #
-		url += "&provider="+encodeURIComponent(frm.provider.options[frm.provider.selectedIndex].value);	// html escape provider
+		url += "&provider="+encodeURIComponent(frm.provider.options[frm.provider.selectedIndex].value);	// html escpae provider
 		for (i=0;i<frm.loc.length;i++) {		// for each item, get the checked one 
 //		alert(i+" "+frm.loc[i].checked);
 			if (frm.loc[i].checked == true) {	// if checked, add it to the URL
@@ -105,7 +112,8 @@ return false;
 		if (frm.loc.length == undefined) {		// if just one, should not come to this
 			url += "&item="+encodeURIComponent(frm.loc.value);		
 		}
-
+		    url += "&title="+title; 	//get title
+		
 	var bodyRef = document.getElementsByTagName("body")[0]; //get the bib number out of the <body>, add it to the url
 	var bodyText = bodyRef.innerHTML;
 	var bibNum = bodyText.match(/b[\d]{7}/m);
@@ -117,7 +125,7 @@ return false;
    	 script.setAttribute('src',url);							// the script is actually the PERL script 
    	 head.appendChild(script);									// append the script
 	} else {		// invalid phone #, send message
-	  alert('Please enter a valid phone #.');
+	  alert('please enter a valid phone #');
       }
    }
 	
