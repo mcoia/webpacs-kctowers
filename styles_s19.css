@@ -80,4 +80,8 @@ width:71%;
     padding:40px 20px;
 }
 
+.topLogoImage img { 
+ width: 250px;
+}
+
 #worldcat { display:inline; }
