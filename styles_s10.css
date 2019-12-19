@@ -45,6 +45,10 @@
     padding: 22px 0;
 }
 
+.topLogoImage img {
+    max-height: 100px;
+}
+
 .rightColumn {
     margin: 2% 0 2% 1.75%;
 }
