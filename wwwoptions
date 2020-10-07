@@ -96,6 +96,7 @@ TOPLOGO16=@screens/toplogo_s16.html
 TOPLOGO17=@screens/toplogo_s17.html
 TOPLOGO18=@screens/toplogo_s18.html
 TOPLOGO19=@screens/toplogo_s19.html
+TOPLOGO20=@screens/toplogo_s20.html
 
 TOPLOGO_spi=@screens/toplogo_spi.html
 TOPLOGO1_spi=@screens/toplogo_spi_s1.html
@@ -184,7 +185,7 @@ ICON_BUT_LIMAVAIL=<span class="button"><img src="/screens/ico_list.png" alt=""><
 ICON_BUT_LIMIT=<span class="navButton">Limit/Sort Search</span>
 ICON_BUT_UNLIMAVAIL=<span class="button"><img src="/screens/ico_list.png" alt=""><span class="buttonText">Show All</span></span>
 DISPLAY_245=atd
-EXTENDED=CT
+EXTENDED=CTK
 #EXTENDED=T
 #EXTENDED_t=AT
 #EXTENDED_m=T
@@ -345,16 +346,18 @@ XRECTYPE=boi
 ICON_BUT_REQUEST=<span class="navButtonOneLine" id="requestButton">Request</span>
 ICON_BUT_REQUEST16=<span class="navButtonOneLine">Request</span>
 ICON_BUT_REQUEST18=<span class="navButtonOneLine">Request</span>
-ICON_BUT_REQUEST19=<span class="navButtonOneLine centerButton">Request</span>
+ICON_BUT_REQUEST19=<span class="navButtonOneLine centerButton">Request MWSU <br> Curbside Pickup</span>
 ICON_BUT_REQUEST_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Available</span></span></div></div>
 ICON_BUT_REQUEST_MULTI=<span class="navButton">Request Saved</span>
 ICON_BUT_REQUEST_RESET=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Reset Form</span></span></div></div>
 ICON_BUT_REQUEST_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Selected</span></span></div></div>
 ICON_REQUEST=<span class="navButtonSmall navButton">Request</span>
 #REQFILLTIME=14|<br>Request available in approximately %d days|<br>Current estimated availability: approximately %d days|<br>This material may be immediately available
+REQUEST10=Request this title|item|ask|yes
 REQUEST=Request this title|denyiflocalavail|ask|yes
 #REQUEST_ARTICLE_IFCHKIN=Y
 REQUEST_INSTRUCTION=Any special instructions?
+REQUEST_MULTI10=Request All Items in Book Cart|item|ask|yes
 REQUEST_MULTI=Request All Items in Book Cart|denyiflocalavail|ask|yes
 
 # Patron Record
@@ -520,7 +523,7 @@ TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 # Featured Lists
 ICON_BUT_PREVSCRN=<span class="navButtonOneLine">Back</span>
 ICON_BUT_RET2FEAT=<span class="navButtonOneLine">Back</span>
-FEATURED_LIST=03,08,67,70,73,179,181,68,177,299,292,295,288,160,283,420,13,320,551,282|FEATURED LISTS|CATEGORY|# of Titles
+FEATURED_LIST=03,08,67,70,73,179,181,68,177,299,292,295,288,160,283,420,13,320,551,282,372|FEATURED LISTS|CATEGORY|# of Titles
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
@@ -669,41 +672,36 @@ LOCKSCOPE=no
 
 # Locations
 
-LOC_w4rsi=http://www.nwmissouri.edu/library/maps/store.htm
-LOC_w4pva=http://www.nwmissouri.edu/library/maps/store.htm
-LOC_w4pvb=http://www.nwmissouri.edu/library/maps/store.htm
-LOC_w4gsi=http://www.nwmissouri.edu/library/maps/store.htm
-LOC_w4dsi=http://www.nwmissouri.edu/library/maps/store.htm
-LOC_w4pun=http://nwmissouri.edu/library/maps/firstfloor.pdf
-LOC_w4tii=http://nwmissouri.edu/library/maps/firstfloor.pdf
-LOC_w4nii=http://nwmissouri.edu/library/maps/firstfloor.pdf
-LOC_w4aei=http://nwmissouri.edu/library/maps/firstfloor.pdf
-LOC_w4red=http://libguides.nwmissouri.edu/az.php
-LOC_w4r*=http://nwmissouri.edu/library/maps/firstfloor.pdf
-LOC_w4x*=http://nwmissouri.edu/library/maps/firstfloor.pdf
-LOC_w4g*=http://nwmissouri.edu/library/maps/firstfloor.pdf
-LOC_w4d*=http://nwmissouri.edu/library/maps/firstfloor.pdf
-LOC_w4b*=http://nwmissouri.edu/library/maps/firstfloor.pdf
-LOC_w4o*=http://nwmissouri.edu/library/maps/firstfloor.pdf
-LOC_w4eii=http://nwmissouri.edu/library/maps/secondfloor.pdf
-LOC_w4lii=http://nwmissouri.edu/library/maps/secondfloor.pdf
-LOC_w4fii=http://nwmissouri.edu/library/maps/secondfloor.pdf
-LOC_w4gyi=http://nwmissouri.edu/library/maps/secondfloor.pdf
-LOC_w4qii=http://nwmissouri.edu/library/maps/secondfloor.pdf
-LOC_w4yii=http://nwmissouri.edu/library/maps/secondfloor.pdf
-LOC_w4vii=http://nwmissouri.edu/library/maps/secondfloor.pdf
-LOC_w4a*=http://nwmissouri.edu/library/maps/secondfloor.pdf
-LOC_w4p*=http://nwmissouri.edu/library/maps/secondfloor.pdf
-LOC_w4c*=http://nwmissouri.edu/library/maps/secondfloor.pdf
-LOC_w4wii=http://nwmissouri.edu/library/maps/thirdfloor.pdf
-LOC_w4sii=http://nwmissouri.edu/library/maps/thirdfloor.pdf
-LOC_w4chi=http://nwmissouri.edu/library/maps/thirdfloor.pdf
-LOC_w4cdi=http://nwmissouri.edu/library/maps/thirdfloor.pdf
-LOC_w4hii=http://nwmissouri.edu/library/maps/thirdfloor.pdf
-LOC_w4m*=http://nwmissouri.edu/library/maps/thirdfloor.pdf
-LOC_w4aii=http://nwmissouri.edu/library/maps/thirdfloor.pdf
-LOC_w4j*=http://nwmissouri.edu/library/maps/thirdfloor.pdf
-LOC_w4cii=http://nwmissouri.edu/library/maps/thirdfloor.pdf
+LOC_w4pun=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4pzn=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4tii=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4nii=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4aei=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4r*=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4x*=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4g*=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4d*=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4b*=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4o*=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4eii=/screens/NWMSUSecondFloor2020.pdf
+LOC_w4lii=/screens/NWMSUSecondFloor2020.pdf
+LOC_w4fii=/screens/NWMSUSecondFloor2020.pdf
+LOC_w4gyi=/screens/NWMSUSecondFloor2020.pdf
+LOC_w4qii=/screens/NWMSUSecondFloor2020.pdf
+LOC_w4yii=/screens/NWMSUSecondFloor2020.pdf
+LOC_w4vii=/screens/NWMSUSecondFloor2020.pdf
+LOC_w4a*=/screens/NWMSUSecondFloor2020.pdf
+LOC_w4p*=/screens/NWMSUSecondFloor2020.pdf
+LOC_w4c*=/screens/NWMSUSecondFloor2020.pdf
+LOC_w4wii=/screens/NWMSUThirdFloor2020.pdf
+LOC_w4sii=/screens/NWMSUThirdFloor2020.pdf
+LOC_w4chi=/screens/NWMSUThirdFloor2020.pdf
+LOC_w4cdi=/screens/NWMSUThirdFloor2020.pdf
+LOC_w4hii=/screens/NWMSUThirdFloor2020.pdf
+LOC_w4m*=/screens/NWMSUThirdFloor2020.pdf
+LOC_w4aii=/screens/NWMSUThirdFloor2020.pdf
+LOC_w4j*=/screens/NWMSUThirdFloor2020.pdf
+LOC_w4cii=/screens/NWMSUThirdFloor2020.pdf
 
 LOC_m2adx=/screens/MWSU_Main_Floor_Reserves.pdf "target=_blank"
 LOC_m2avd=/screens/MWSU_Main_Floor_DVD.pdf "target=_blank"
@@ -715,6 +713,7 @@ LOC_m2cii=/screens/MWSU_Third_Floor_Stacks.pdf "target=_blank"
 LOC_m2cni=/screens/MWSU_Main_Floor_New_Book_Shelf.pdf "target=_blank"
 LOC_m2coi=/screens/MWSU_Third_Floor_Oversize.pdf "target=_blank"
 LOC_m2csi=/screens/MWSU_Third_Floor_Music_Scores.pdf "target=_blank"
+LOC_m2imc=/screens/MWSU_Main_Floor_Audio_Books.pdf "target=_blank"
 LOC_m2jii=/screens/MWSU_Third_Floor_Childrens_Lit_and_Rigby_Readers.pdf "target=_blank"
 LOC_m2mri=/screens/MWSU_Third_Floor_Music_Audio.pdf "target=_blank"
 LOC_m2pbi=/screens/MWSU_Third_Floor_Bound_Periodicals.pdf "target=_blank"

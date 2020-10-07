@@ -47,7 +47,13 @@
 }
 
 .textHelp {
-	font-size: 11px;
+	margin-top: 10px;
+}
+
+.textHelpRight {
+	margin-top: 10px;
+	text-align:center;
+	font-size: 12px;
 }
 
 .topLogo {

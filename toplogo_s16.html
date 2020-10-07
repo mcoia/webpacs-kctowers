@@ -42,7 +42,7 @@ $(document).ready(function () {
     //hides out of scope featured lists
     var pathnameFtList = window.location.href.slice(window.location.href.indexOf('/') + 1).split('/')[3];
     if(pathnameFtList.indexOf('ftlist') > -1){
-    $('.browseEntry:not(:contains("Conception Abbey"))').addClass('hideMe');
+    $('.browseEntry:not(:contains("Conception"))').addClass('hideMe');
     $(".hideMe").hide();
     text = $('.ftlistHeader').text();
 	listName = text.replace(/[^a-z0-9]/gmi, " ").replace(/[\d]{1,2}/m, " ").replace("entries", " ");
@@ -122,7 +122,7 @@ if (document.body){document.body.className = "bodybg";}
 <li><a href="/illb~S16">Interlibrary Loan - Books/AV</a></li>
 <li><a href="/illj">Interlibrary Loan - Journal Articles</a></li>
 <li><a href="/search/b">Course Reserves</a></li>
-<li><a href="/search~S16/ftlist">New Library Items</a></li>
+<li><a href="/search~S16/ftlist">Featured Library Items</a></li>
 </ul>
         
 </div>
