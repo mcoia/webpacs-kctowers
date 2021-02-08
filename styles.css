@@ -209,6 +209,8 @@ a:hover  { color: #7C14B8; }
 
 .bibDisplayJacket  { float:left; margin:0 0 1em 1%; display:inline; width:8em; }
 
+.bibDisplayUrls img { max-height: 50px; }
+
 .bibLinks th { text-align:center; }
 
 .bibLinks td { padding-top: .75em; }
