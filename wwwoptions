@@ -132,12 +132,11 @@ STAFF_LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into staff mode 
 # General and Phrase Searching
 ICON_BUT_ANOTHER=<span class="navButton">Another Search</span>
 ICON_BUT_ANOTHER18=<span class="button"><img src="/screens/ico_magnifyingglass.png" alt=""><span class="buttonText">Another Search</span></span>
-#ICON_BUT_NEWSRCH=New Search
+# ICON_BUT_NEWSRCH=New Search
 ICON_BUT_NEWSRCH19=New Search
 ICON_BUT_WORDSRCH=<span class="navButton">Search as Words</span>
 ICON_BUT_WORDSRCH18=<span class="button"><img src="/screens/ico_magnifyingglass.png" alt=""><span class="buttonText">Search as Words</span></span>
 DROP_DOWN=Xtasdmjxicefgo
-FRAMEURL=0
 IBROWSE_MAX=10000
 KEYWORD_COLOR=Y|all|red
 MULT_LIMITS=true
@@ -163,9 +162,9 @@ IMAGE_AVS2=/screens/relevance2.gif
 IMAGE_AVS3=/screens/relevance3.gif
 IMAGE_AVS4=/screens/relevance4.gif
 IMAGE_AVS5=/screens/relevance5.gif
-#ICON_AWS_BYRELEVANCE_LINK=
-#ICON_AWS_BYDATE_LINK=
-#ICON_AWS_BYTITLE_LINK=
+# ICON_AWS_BYRELEVANCE_LINK=
+# ICON_AWS_BYDATE_LINK=
+# ICON_AWS_BYTITLE_LINK=
 RELSEARCH=restable||<span class="button"><img src="/screens/ico_magnifyingglass.png" border="0" alt=""><span class="buttonText">Related Searches</span>
 
 # Search Results
@@ -176,8 +175,8 @@ BRIEF_a=TU
 BROWSE_a=111/andce|100/aqbcd
 BROWSE_d=611/andcvxyz
 BROWSE_t=130/adfghklmnoprs
-#BRIEF=A
-#BROWSE_t=245/abpn/h|240/a/h|970/lt/cde
+# BRIEF=A
+# BROWSE_t=245/abpn/h|240/a/h|970/lt/cde
 BROWSE_HEADERS=Mark|Media
 ICON_BUT_BRIEF=<span class="navButtonOneLine">Brief Display</span>
 ICON_BUT_EXTENDED=<span class="navButton">Extended Display</span>
@@ -186,13 +185,13 @@ ICON_BUT_LIMIT=<span class="navButton">Limit/Sort Search</span>
 ICON_BUT_UNLIMAVAIL=<span class="button"><img src="/screens/ico_list.png" alt=""><span class="buttonText">Show All</span></span>
 DISPLAY_245=atd
 EXTENDED=CTK
-#EXTENDED=T
-#EXTENDED_t=AT
-#EXTENDED_m=T
+# EXTENDED=T
+# EXTENDED_t=AT
+# EXTENDED_m=T
 HEADING_LENGTH=100
 ICON_856LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Website
 ICON_962LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Digital Image
-#ICON_BOOKCART=<span class="navButtonOneLine">Add to Bag</span>
+# ICON_BOOKCART=<span class="navButtonOneLine">Add to Bag</span>
 ICON_BOOKCART_SAVED=<span class="navButtonYellow navButton">Remove From Bag</span>
 ICON_BOOKCART_SAVED19=<span class="navButton">Saved for Print/Email</span>
 ICON_BOOKCART_SAVED18=<span class="button"><img src="/screens/ico_bag_minus.png" alt=""><span class="buttonText">Remove From Bag</span></span>
@@ -253,12 +252,12 @@ ICON_BUT_RTRNTB=<span class="navButton">Return to Browse</span>
 ICON_BUT_RTRNTB4=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Return to Browse</span></span>
 DISPLAY_856=z3|false
 HOLDINGS_POS=atpe
-#HOLDINGS_POS=atp
+# HOLDINGS_POS=atp
 HOTLINK=o^001,i^020
-#HOTLINK=i^022,i^024,i^028,g^086
+# HOTLINK=i^022,i^024,i^028,g^086
 ICON_BIB_HOLDINGS_ITEMS=View Copies
-#ICON_NEARBY=<img src="/screens/bullet.gif" alt="Nearby on shelf" border="0">
-ICON_BIB_PAGING_CAPTION=
+# ICON_NEARBY=<img src="/screens/bullet.gif" alt="Nearby on shelf" border="0">
+# ICON_BIB_PAGING_CAPTION=
 ICON_BIB_PAGING_NEXT=<span class="button"><span class="buttonText" id="buttonNextRecord">Next Record</span><img src="/screens/ico_next.gif" alt=""></span>
 ICON_BIB_PAGING_PREV=<span class="button"><img src="/screens/ico_previous.gif" alt=""><span class="buttonText">Previous Record</span></span>
 ICON_RECORDLINK=<a id="recordnum" href="%s"><span class="button"><img src="/screens/ico_bookmark.png" alt=""><span class="buttonText">Permanent Link: %s</span></span></a>
@@ -276,11 +275,11 @@ TABLEPARAM_BIB_ORDER=width="100%" cellspacing="0" cellpadding="0"
 TABLEPARAM_BIB_PAGER=border="0"
 TABLEPARAM_BIB_THUMBNAILS=align="center" cellspacing="0" cellpadding="0"
 TABLEPARAM_BIB_TOC=border="0" cellspacing="0"
-#WEBPUBDEF=true
+# WEBPUBDEF=true
 
 # Electronic Resource Management
 BIB_LICENSE_FIELDS=Permitted:Vlw|Restricted:Vlx
-#BIB_LICENSE_FIELDS_BRIEF=
+# BIB_LICENSE_FIELDS_BRIEF=
 BIB_RESOURCE_CAPTION=<strong>This title is available electronically via:</strong>
 BIB_RESOURCE_FIELDS=:VeT|:VeE|:Vek
 BIB_RESOURCE_FIELDS_BRIEF=:VcY|:Vch|:VeE
@@ -342,20 +341,20 @@ EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief,marc,endnote,pr
 XRECTYPE=boi
 
 #Requesting
-#BIBREQUEST=true
+# BIBREQUEST=true
 ICON_BUT_REQUEST=<span class="navButtonOneLine" id="requestButton">Request</span>
 ICON_BUT_REQUEST16=<span class="navButtonOneLine">Request</span>
 ICON_BUT_REQUEST18=<span class="navButtonOneLine">Request</span>
-ICON_BUT_REQUEST19=<span class="navButtonOneLine centerButton">Request MWSU <br> Curbside Pickup</span>
+ICON_BUT_REQUEST19=<span class="navButtonOneLine centerButton">Request</span>
 ICON_BUT_REQUEST_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Available</span></span></div></div>
 ICON_BUT_REQUEST_MULTI=<span class="navButton">Request Saved</span>
 ICON_BUT_REQUEST_RESET=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Reset Form</span></span></div></div>
 ICON_BUT_REQUEST_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Selected</span></span></div></div>
 ICON_REQUEST=<span class="navButtonSmall navButton">Request</span>
-#REQFILLTIME=14|<br>Request available in approximately %d days|<br>Current estimated availability: approximately %d days|<br>This material may be immediately available
+# REQFILLTIME=14|<br>Request available in approximately %d days|<br>Current estimated availability: approximately %d days|<br>This material may be immediately available
 REQUEST10=Request this title|item|ask|yes
 REQUEST=Request this title|denyiflocalavail|ask|yes
-#REQUEST_ARTICLE_IFCHKIN=Y
+# REQUEST_ARTICLE_IFCHKIN=Y
 REQUEST_INSTRUCTION=Any special instructions?
 REQUEST_MULTI10=Request All Items in Book Cart|item|ask|yes
 REQUEST_MULTI=Request All Items in Book Cart|denyiflocalavail|ask|yes
@@ -365,9 +364,9 @@ ICON_BUT_PAT_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout
 ICON_BUT_PAT_CANCELALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel All</span></span></div></div>
 BUT_PAT_CANCELMARK=/screens/pat_cancelmark.gif
 ICON_BUT_PAT_CANCELMARK=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel Selected</span></span></div></div>
-#ICON_BUT_PAT_CHKOUTS=
-#ICON_BUT_PAT_FINES=<span class="button"><img src="/screens/ico_payment.png" alt=""><span class="buttonText">Fines</span></span>
-#ICON_BUT_PAT_HOLDS=
+# ICON_BUT_PAT_CHKOUTS=
+# ICON_BUT_PAT_FINES=<span class="button"><img src="/screens/ico_payment.png" alt=""><span class="buttonText">Fines</span></span>
+# ICON_BUT_PAT_HOLDS=
 ICON_BUT_PAT_INFO=<span class="button"><img src="/screens/ico_patron.png" alt=""><span class="buttonText">Modify Personal Information</span></span>
 ICON_BUT_PAT_MSGS=<span class="button"><img src="/screens/ico_browse_brief.png" alt=""><span class="buttonText">Message from the library</span></span>
 ICON_BUT_PAT_PIN=<span class="button"><img src="/screens/ico_pin.png" alt=""><span class="buttonText">Modify PIN</span></span>
@@ -381,7 +380,7 @@ ICON_BUT_PSTARTOVER13=<span class="button"><img src="/screens/ico_startover.png"
 ICON_BUT_RET2PREC=Return to My Account
 ICON_BUT_UPDATE_HOLDS=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Update List</span></span></div></div>
 CHANGE_HOLD_LOC=true
-#FREEZE_HOLDS=true
+# FREEZE_HOLDS=true
 ICON_CLOSEWINDOW=<span class="button"><img src="/screens/ico_x.png" alt=""><span class="buttonText">Close Window</span></span>
 ICON_PAT_CANCELALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel All</span></span></div></div>
 ICON_PAT_CANCELMARK=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel Selected</span></span></div></div>
@@ -390,22 +389,22 @@ ICON_SORTPUDATE=<div onmousedown="this.className='pressedState';" onmouseout="th
 ICON_SORTREQDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Request</span></span></div></div>
 MIN_PIN_LENGTH=6
 MODIFY_PFLDS=z
-#MODIFY_PFLDS=ahtpzHx
+# MODIFY_PFLDS=ahtpzHx
 MY_WEBPAC=F,2
 NEWPIN_MSG=Please enter a Personal Identification Number (PIN)
 PATRON_FIELDS=n/a|a/a|t/t|F/43
 #Note that in the PATRON_MSG web option you should replace z with the field tag used on your system for messages.
-#PATRON_MSG=z|Message from the library
-#PATRON_NOTICES=apz
+# PATRON_MSG=z|Message from the library
+# PATRON_NOTICES=apz
 PIN_ALPHA_NUM=false
 PIN_NUM_ONLY=false
 PIN_RESET=false
-#PIN_RESET_EMAIL=Request to reset your library PIN|INSERT LIBRARY FROM EMAIL HERE|INSERT LIBRARY REPLY-TO EMAIL HERE
+# PIN_RESET_EMAIL=Request to reset your library PIN|INSERT LIBRARY FROM EMAIL HERE|INSERT LIBRARY REPLY-TO EMAIL HERE
 PSTARTOVER=/search
 SEEPUDATE=true
 TABLEPARAM_PATDISP=border="0"|border="0"|border="0"
 TABLEPARAM_PATFUNC=border="0"|border="0"|border="0"
-#TIMEOUT_POPUP=600
+# TIMEOUT_POPUP=600
 
 # My Millennium
 ICON_BUT_LOGOUT=Log Out
@@ -458,8 +457,8 @@ ICON_RATE_MY=<img src="/screens/rate_my.gif" border="0" width="15" height="14" a
 ICON_RATE_NEED=<img src="/screens/rate_need.gif" border="0" width="15" height="14" alt="Rate this material!" title="Rate this material!">
 ICON_RATE_NO=<img src="/screens/rate_no.gif" border="0" width="75" height="14" alt="No one has rated this material" title="No one has rated this material">
 ICON_RATE_PAD=<img src="/screens/rate_pad.gif" border="0" width="15" height="14" alt="Rated %d stars out of 5 based on %n ratings" title="Rated %d stars out of 5 based on %n ratings">
-#PATRATE=true
-#PATREVIEW=1
+# PATRATE=true
+# PATREVIEW=1
 ICON_PATREVIEW=<span class="button"><img src="/screens/ico_review.png" alt=""><span class="buttonText">My Reviews</span></span>
 ICON_PATREVIEW_ADD=<span class="button"><img src="/screens/ico_review_sm.png" alt=""><span class="buttonText">Add a Review</span></span>
 PATREVIEW_ABUSE_NOTIFY=Review abuse reported|Example Library|web@example.org
@@ -467,15 +466,15 @@ PATREVIEW_ABUSE_NOTIFY=Review abuse reported|Example Library|web@example.org
 # Ecommerce
 CC_APPROVED=Your payment has been approved.
 CC_DECLINED=Sorry. Your payment has been declined. Please confirm your information is entered correctly or pay at the library.
-#CC_EMAIL_RECEIPT=Receipt for payment to Your Library|circadm@example.org|onlinepayments@example.org
-#DONATE_NOTIFY=A new donation has been received|circadm@example.org|donormgmt@example.org
+# CC_EMAIL_RECEIPT=Receipt for payment to Your Library|circadm@example.org|onlinepayments@example.org
+# DONATE_NOTIFY=A new donation has been received|circadm@example.org|donormgmt@example.org
 ICON_PAY=<span class="button"><img src="/screens/ico_payment.png" alt=""><span class="buttonText">Pay Online</span></span>
 ICON_PAY_CLEAR_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Clear All</span></span></div></div>
 ICON_PAY_SELECT_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Select All</span></span></div></div>
 ICON_PRINT=<span class="button"><img src="/screens/ico_printer_alt.png" alt=""><span class="buttonText">Print</span></span>
 ICON_PAY_CONTINUE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Continue</span></span></div></div>
-#MINDONATE=1000|Donations must be at least $10.00 to cover processing costs. Thank you.
-#PAYAMTS=500|Please visit the library to pay this amount|00
+# MINDONATE=1000|Donations must be at least $10.00 to cover processing costs. Thank you.
+# PAYAMTS=500|Please visit the library to pay this amount|00
 
 # Bookings
 BOOKINGS=no|true|true|false
@@ -505,19 +504,19 @@ ICON_INNREACH_ENCORE16=<span class="navButton">Search MOBIUS</span>
 ICON_INNREACH_ENCORE18=<span class="navButton">Search MOBIUS</span>
 ICON_INNREACH_ENCORE19=<span class="navButton">Search MOBIUS</span>
 INNREACH_ENCORE=http://searchmobius.org/iii/encore/search/C__S%s__Orightresult__U?lang=eng&suite=cobalt
-#INNREACH=<span class="navButton resourceButton">Search MOBIUS</span>@searchmobius.org(X=X*;Y=Y*;a=a;c=c;d=d;e=e;g=g;i=i;m=h;o=o;s=s;t=t)
-#INNREACH13=<span title="Search for items held by libraries throughout the entire MOBIUS system." id="parkInnReach"class="resourceButton"><img src="/screens/mobiusLibrarysearch.gif" alt=""></span>@searchmobius.org(X=X*;Y=Y*;a=a;c=c;d=d;e=e;g=g;i=i;m=h;o=o;s=s;t=t)
+# INNREACH=<span class="navButton resourceButton">Search MOBIUS</span>@searchmobius.org(X=X*;Y=Y*;a=a;c=c;d=d;e=e;g=g;i=i;m=h;o=o;s=s;t=t)
+# INNREACH13=<span title="Search for items held by libraries throughout the entire MOBIUS system." id="parkInnReach"class="resourceButton"><img src="/screens/mobiusLibrarysearch.gif" alt=""></span>@searchmobius.org(X=X*;Y=Y*;a=a;c=c;d=d;e=e;g=g;i=i;m=h;o=o;s=s;t=t)
 
 # Media Management
 ICON_BUT_RET2CRS=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Return to Course</span></span>
 ERESERVE=[0123456789]
-#IMAGE_PRINT=yes
-#IMAGE_SAVE=yes
+# IMAGE_PRINT=yes
+# IMAGE_SAVE=yes
 
 # Reserves
 RSRV_FORMAT=true
-#RSRV_HEADER=Materials for this Course
-#RSRV_HEADER=Featured Titles This Month
+# RSRV_HEADER=Materials for this Course
+# RSRV_HEADER=Featured Titles This Month
 TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 
 # Featured Lists
@@ -527,9 +526,9 @@ FEATURED_LIST=03,08,67,70,73,179,181,68,177,299,292,295,288,160,283,420,13,320,5
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
-#BIBIMAGE=http://www.librarything.com/devkey/4f5b96d61b456f6672be9d60b184dad9/small/isbn/%s|I|http://www.librarything.com/devkey/4f5b96d61b456f6672be9d60b184dad9/large/isbn/%s
+# BIBIMAGE=http://www.librarything.com/devkey/4f5b96d61b456f6672be9d60b184dad9/small/isbn/%s|I|http://www.librarything.com/devkey/4f5b96d61b456f6672be9d60b184dad9/large/isbn/%s
 BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=kcartinst|I|http://www.syndetics.com/index.aspx?isbn=%s/LC.GIF&client=kcartinst
-#BIBIMAGE=http://syndetics.com/index.aspx?issn=%s/SC.GIF&client=kcartinst|I|http://syndetics.com/index.aspx?issn=%s/SC.GIF&client=kcartinst
+# BIBIMAGE=http://syndetics.com/index.aspx?issn=%s/SC.GIF&client=kcartinst|I|http://syndetics.com/index.aspx?issn=%s/SC.GIF&client=kcartinst
 BIBIMAGE_TEXT=Book Jacket
 BUT_ENCYCPD=/screens/encycpd.gif
 BUT_FULL_TEXT=/screens/full_text.gif
@@ -538,16 +537,16 @@ WEBADDRESS=http://www.worldcat.org/search?q=%s|I|http://www.worldcat.org/search?
 # WebBridge/Pathfinder Pro
 ICON_BUT_CLOSEFRAME=<span class="button"><img src="/screens/ico_x.png" alt=""><span class="buttonText">Close Frame</span></span>
 ICON_BUT_RESOURCELINK=<div id="resourcelink"><span class="navButton resourceButton path">Other Resources</span></div>
-#ICON_BUT_RESOURCELINK10=<div id="resourcelink"><span class="navButton resourceButton path">Subject Guides</span></div>
+# ICON_BUT_RESOURCELINK10=<div id="resourcelink"><span class="navButton resourceButton path">Subject Guides</span></div>
 ICON_BUT_RET2RESOURCE=<div id="resourcelink"><span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Back</span></span></div>
 RESLINK2=bibresourcetop|||
 RESLINK3=bibresourcetop|||
 RESLINK4=bibresourcetop|||
 RESLINK5=bibresourcetop|||
-#RESLINK10=bibresourcetop|||
+# RESLINK10=bibresourcetop|||
 RESLINK12=bibresourcetop|||
-#RESLINK13=bibresourcetop|||
-#WBHEADERTEXT=The following resources may provide additional information about<br>#HEADER#
+# RESLINK13=bibresourcetop|||
+# WBHEADERTEXT=The following resources may provide additional information about<br>#HEADER#
 ENH_IMAGE=false
 
 
@@ -557,7 +556,7 @@ ICON_PATFEED=<span class="button"><img src="/screens/ico_rss.gif" alt=""><span c
 PATFEED_CONFIG=Your Library Record News|Follow links to library record for full details.
 PATFEED_FINES_INCURRED_RECENTLY=You have new fines or fees
 PATFEED_HOLDS_READY=Your materials are ready to be picked up
-#PATFEED_IMAGE=/screens/rss.gif|Subscribe to a feed of your library record.|88|31
+# PATFEED_IMAGE=/screens/rss.gif|Subscribe to a feed of your library record.|88|31
 PATFEED_ITEMS_BOOKED_TOMORROW=Materials booked tomorrow
 PATFEED_ITEMS_DUE_SOON=Materials due soon
 PATFEED_ITEMS_DUE_TODAY=Materials due today
@@ -585,9 +584,9 @@ ICON_BUT_RETHOME=<span class="button"><img src="/screens/ico_up.gif" alt=""><spa
 AIRPAC_PORT=6060
 
 # Patron Registration
-#SELFREG_ERROR_EMAIL=circadm|example@example.org|Self Registration Error|example@example.org
-#SELFREG_INFO_EMAIL=circadm|example@example.org|New Patron Registration|example@example.org
-#SELFREG_NAME_ORDER=1|2|3|,
+# SELFREG_ERROR_EMAIL=circadm|example@example.org|Self Registration Error|example@example.org
+# SELFREG_INFO_EMAIL=circadm|example@example.org|New Patron Registration|example@example.org
+# SELFREG_NAME_ORDER=1|2|3|,
 SELFREG_TEMPLATE=webpat
 TIMEOUT_SELFREG=600
 
@@ -597,8 +596,8 @@ ICON_MFFAVS_SEARCH=<span class="button"><img src="/screens/ico_magnifyingglass.p
 ICON_PAT_MFFAVS=<span class="button"><img src="/screens/ico_globe.png" alt=""><span class="buttonText">My Research Pro</span></span>
 MFFAVS_CONFIRM=Your group, %s, has been saved successfully.
 MFFAVS_DENY=This function is not available. Please contact a librarian for further assistance.
-#MFFAVS_HOME=http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/loadSearchPage.do?searchtype=simple&amp;searchpage=simple&amp;accountid=[ACCOUNT]&amp;accountpassword=[ACCOUNT]&amp;language=eng
-#MFFAVS_URL=true|[ACCOUNT]|[ACCOUNT]|/mfgo/http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/search.do
+# MFFAVS_HOME=http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/loadSearchPage.do?searchtype=simple&amp;searchpage=simple&amp;accountid=[ACCOUNT]&amp;accountpassword=[ACCOUNT]&amp;language=eng
+# MFFAVS_URL=true|[ACCOUNT]|[ACCOUNT]|/mfgo/http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/search.do
 MFFAVS_ALL=TRUE
 
 # WebPAC Pro
@@ -609,8 +608,8 @@ INNOVATIVE_FOOTER=center|a
 SPELLCHECK=<span class="spellcheckTool">Did you mean %a? %s </span>
 
 # Research Pro
-#MF_BIBIMAGE=http://syndetics.com/index.aspx/?isbn=%s/SC.gif&amp;client=PUTACCOUNTHERE&amp;type=hw7|i|http://syndetics.com/index.aspx/?isbn=%s/SC.gif&amp;client=PUTACCOUNTHERE&amp;type=hw7
-#MF_BIBIMAGE=http://www.TheContentServer.com/bin/cntsvr.dll?GetImage&amp;SysID=PUTACCOUNTHERE&amp;CustID=PUTACCOUNTHERE&amp;ISBN=%s&amp;Type=S&amp;Return=0|I|http://www.TheContentServer.com/bin/cntsvr.dll?GetImage&amp;SysID=PUTACCOUNTHERE&amp;CustID=PUTACCOUNTHERE&amp;ISBN=%s&amp;Type=L&amp;Return=1
+# MF_BIBIMAGE=http://syndetics.com/index.aspx/?isbn=%s/SC.gif&amp;client=PUTACCOUNTHERE&amp;type=hw7|i|http://syndetics.com/index.aspx/?isbn=%s/SC.gif&amp;client=PUTACCOUNTHERE&amp;type=hw7
+# MF_BIBIMAGE=http://www.TheContentServer.com/bin/cntsvr.dll?GetImage&amp;SysID=PUTACCOUNTHERE&amp;CustID=PUTACCOUNTHERE&amp;ISBN=%s&amp;Type=S&amp;Return=0|I|http://www.TheContentServer.com/bin/cntsvr.dll?GetImage&amp;SysID=PUTACCOUNTHERE&amp;CustID=PUTACCOUNTHERE&amp;ISBN=%s&amp;Type=L&amp;Return=1
 MF_BOTLOGO=@screens/botlogo.html
 MF_EMAIL_SENDER=researchpro@iii.com
 MF_ICON_ADVANCED_SEARCH=Advanced Search
@@ -663,7 +662,7 @@ ICON_MYARTICLEREACH=<span class="button"><img src="/screens/media_periodicalsmal
 
 # ENCORE
 
-#PATFEEDS_MT=205.227.91.124
+# PATFEEDS_MT=205.227.91.124
 PATFEEDS_MT=10.17.202.45
 
 # Scoping
@@ -736,8 +735,8 @@ LOC_m2x7d=/screens/MWSU_Main_Floor_Reserves.pdf "target=_blank"
 
 
 #SPANISH LANG
-#ICON_INNREACH_ENCORE=<span class="navButton resourceButton">Buscar en MOBIUS</span>
-#ICON_INNREACH_ENCORE13=<span class="navButton resourceButton">Buscar en MOBIUS</span>
+# ICON_INNREACH_ENCORE=<span class="navButton resourceButton">Buscar en MOBIUS</span>
+# ICON_INNREACH_ENCORE13=<span class="navButton resourceButton">Buscar en MOBIUS</span>
 INNREACH_spi=<span class="navButton resourceButton">Buscar en MOBIUS</span>@searchmobius.org(X=X*;Y=Y*;a=a;c=c;d=d;e=e;g=g;i=i;m=h;o=o;s=s;t=t)
 INNREACH13_spi=<span class="navButton resourceButton">Buscar en MOBIUS</span>@searchmobius.org(X=X*;Y=Y*;a=a;c=c;d=d;e=e;g=g;i=i;m=h;o=o;s=s;t=t)
 
@@ -763,8 +762,8 @@ ICON_BUT_PUBLIC_spi=<span class="navButtonOneLine">Vista usuario</span>
 ICON_BUT_STAFF_spi=<span class="navButtonOneLine">Vista del personal</span>
 STAFF_LOGGEDIN_MSG_spi=<span class="loggedInMessage">Est&#225; conectado como "personal" en %s como %s</span>
 ICON_BUT_ANOTHER_spi=<span class="navButton">Otra b&#250;squeda</span>
-#ICON_BUT_NEWSRCH_spi=Inicio
-#ICON_BUT_NEWSRCH13_spi=<span class="navButtonOneLine">Inicio</span>
+# ICON_BUT_NEWSRCH_spi=Inicio
+# ICON_BUT_NEWSRCH13_spi=<span class="navButtonOneLine">Inicio</span>
 ICON_BUT_WORDSRCH_spi=<span class="navButton">Buscar como palabras</span>
 ICON_BUT_MODIFY_spi=<span class="navButton">Modificar b&#250;squeda</span>
 ICON_BUT_SHOWSIM_spi=<span class="navButton">M&#225;s como este</span>
@@ -783,7 +782,7 @@ ICON_BUT_LIMIT_spi=<span class="navButton">Limitar/Ordenar b&#250;squeda</span>
 ICON_BUT_UNLIMAVAIL_spi=<span class="button"><img src="/screens/ico_list.png" alt=""><span class="buttonText">Mostrar todo</span></span>
 ICON_856LINK_spi=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Sitio Web
 ICON_962LINK_spi=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Imagen digital
-#ICON_BOOKCART_spi=<span class="navButton">A&#241;adir a la cesta</span>
+# ICON_BOOKCART_spi=<span class="navButton">A&#241;adir a la cesta</span>
 ICON_BOOKCART_SAVED_spi=<span class="navButtonYellow navButton">Eliminar de la cesta</span>
 ICON_FULLRECORD_spi=Ver registro completo
 ICON_LOCATEINRESULTS_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Localizar en resultados</span></span></div></div>
@@ -801,7 +800,7 @@ ICON_BUT_MARC_DISPLAY_spi=<span class="navButton">Visualizaci&#243;n MARC</span>
 ICON_BUT_REGULAR_DISPLAY_spi=<span class="navButton">Visualizaci&#243;n normal</span>
 ICON_BUT_RTRNTB_spi=<span class="navButton">Volver al listado</span>
 ICON_BIB_HOLDINGS_ITEMS_spi=Ver Copias
-#ICON_NEARBY_spi=<img src="/screens/bullet.gif" alt="Ejemplares cercanos en la estanter&#237;a" border="0">
+# ICON_NEARBY_spi=<img src="/screens/bullet.gif" alt="Ejemplares cercanos en la estanter&#237;a" border="0">
 ICON_BIB_PAGING_NEXT_spi=<span class="button"><span class="buttonText" id="buttonNextRecord">Registro siguiente</span><img src="/screens/ico_next.gif" alt=""></span>
 ICON_BIB_PAGING_PREV_spi=<span class="button"><img src="/screens/ico_previous.gif" alt=""><span class="buttonText">Registro anterior</span></span>
 ICON_RECORDLINK_spi=<a id="recordnum" href="%s"><span class="button"><img src="/screens/ico_bookmark.png" alt=""><span class="buttonText">Enlace permanente</span></span></a>
@@ -838,14 +837,14 @@ ICON_BUT_REQUEST_MULTI_spi=<span class="navButton">B&#250;squeda guardada</span>
 ICON_BUT_REQUEST_RESET_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Reiniciar formulario</span></span></div></div>
 ICON_BUT_REQUEST_SELECTED_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Solicitar selecci&#243;n</span></span></div></div>
 ICON_REQUEST_spi=<span class="navButtonSmall navButton">Solicitud</span>
-#REQFILLTIME_spi=14|<br>Solicitud disponible en aproximadamente %d d&#237;as|<br>Disponibilidad estimada actualmente: aproximadamente %d d&#237;as|<br>Este material puede estar disponible inmediatamente
+# REQFILLTIME_spi=14|<br>Solicitud disponible en aproximadamente %d d&#237;as|<br>Disponibilidad estimada actualmente: aproximadamente %d d&#237;as|<br>Este material puede estar disponible inmediatamente
 REQUEST_spi=Reservar este ejemplar|denyiflocalavail|ask|yes
-#REQUEST_INSTRUCTION_spi=Indique las instruciones especiales, por favor:
+# REQUEST_INSTRUCTION_spi=Indique las instruciones especiales, por favor:
 REQUEST_MULTI_spi=Solicitar todos los ejemplares en el carro|denyiflocalavail|ask|yes
 ICON_BUT_PAT_CANCEL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancelar</span></span></div></div>
 ICON_BUT_PAT_CANCELALL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancelar Todo</span></span></div></div>
 ICON_BUT_PAT_CANCELMARK_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancelar Selecci&#243;n</span></span></div></div>
-#ICON_BUT_PAT_FINES_spi=<span class="button"><img src="/screens/ico_payment.png" alt=""><span class="buttonText">Multas</span></span>
+# ICON_BUT_PAT_FINES_spi=<span class="button"><img src="/screens/ico_payment.png" alt=""><span class="buttonText">Multas</span></span>
 ICON_BUT_PAT_INFO_spi=<span class="button"><img src="/screens/ico_patron.png" alt=""><span class="buttonText">Modificar informaci&#243;n personal</span></span>
 ICON_BUT_PAT_MSGS_spi=<span class="button"><img src="/screens/ico_browse_brief.png" alt=""><span class="buttonText">Mensaje de la biblioteca</span></span>
 ICON_BUT_PAT_PIN_spi=<span class="button"><img src="/screens/ico_pin.png" alt=""><span class="buttonText">Modificar PIN</span></span>
@@ -863,8 +862,8 @@ ICON_PIN_RESET_spi=<span class="button"><img src="/screens/ico_questionmark.png"
 ICON_SORTPUDATE_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Ordenar por recogida</span></span></div></div>
 ICON_SORTREQDATE_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Ordenar por solicitud</span></span></div></div>
 NEWPIN_MSG_spi=Indique un N&#250;mero de Identificaci&#243;n Personal (PIN)
-#PATRON_MSG_spi=z|Mensaje de la biblioteca
-#PIN_RESET_EMAIL_spi=Solicitud para cambiar su PIN de la biblioteca|INSERTE AQU&#207; EL EMAIL "DE"|INSERTE AQU&#207; EL EMAIL "RESPONDER"
+# PATRON_MSG_spi=z|Mensaje de la biblioteca
+# PIN_RESET_EMAIL_spi=Solicitud para cambiar su PIN de la biblioteca|INSERTE AQU&#207; EL EMAIL "DE"|INSERTE AQU&#207; EL EMAIL "RESPONDER"
 PSTARTOVER_spi=/search*spi
 ICON_BUT_PAT_PSEARCH_REMOVE_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Borrar todas las b&#250;squedas</span></span></div></div>
 ICON_BUT_PAT_PSEARCH_UPDATE_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Actualizar lista</span></span></div></div>
@@ -890,15 +889,15 @@ ICON_PATREVIEW_ADD_spi=<span class="button"><img src="/screens/ico_review_sm.png
 PATREVIEW_ABUSE_NOTIFY_spi=Reportado rese&#241;a de abuso|Biblioteca ejemplo|web@example.org
 CC_APPROVED_spi=Su pago ha sido aprobado.
 CC_DECLINED_spi=Lo siento. Su pago ha sido denegado. Confirme que la informaci&#243;n se ha introducido correctamente o pague en la biblioteca.
-#CC_EMAIL_RECEIPT_spi=Recibo de pago a su biblioteca|circadm@example.org|onlinepayments@example.org
-#DONATE_NOTIFY_spi=Se ha recibido un donativo nuevo|circadm@example.org|donormgmt@example.org
+# CC_EMAIL_RECEIPT_spi=Recibo de pago a su biblioteca|circadm@example.org|onlinepayments@example.org
+# DONATE_NOTIFY_spi=Se ha recibido un donativo nuevo|circadm@example.org|donormgmt@example.org
 ICON_PAY_spi=<span class="button"><img src="/screens/ico_payment.png" alt=""><span class="buttonText">Pago en l&#237;nea</span></span>
 ICON_PAY_CLEAR_ALL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Borrar todo</span></span></div></div>
 ICON_PAY_SELECT_ALL_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Seleccionar todo</span></span></div></div>
 ICON_PRINT_spi=<span class="button"><img src="/screens/ico_printer_alt.png" alt=""><span class="buttonText">Imprimir</span></span>
 ICON_PAY_CONTINUE_spi=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Continuar</span></span></div></div>
-#MINDONATE_spi=1000|Los donativos deben ser de al menos 10.00 &#8364; para cubrir los costes de procesamiento. Gracias.
-#PAYAMTS_spi=500|Visite la biblioteca para pagar esta cantidad, por favor|00
+# MINDONATE_spi=1000|Los donativos deben ser de al menos 10.00 &#8364; para cubrir los costes de procesamiento. Gracias.
+# PAYAMTS_spi=500|Visite la biblioteca para pagar esta cantidad, por favor|00
 BOOKINGS_DAY_LEGEND_spi=<span class="bookingsLegend">La biblioteca cierra en <span id="closed">X</span> horas. No hay ejemplares disponibles en <span id="unavailable">horas</span> en gris.</span>
 BOOKINGS_MONTH_LEGEND_spi=<span class="bookingsLegend">La biblioteca cierra el <span id="closed">X</span> d&#237;as. No hay ejemplares disponibles en <span id="unavailable">d&#237;as</span> en gris.</span>
 ICON_BOOKINGS_HEADER_spi=<span class="button"><img src="/screens/ico_checkbox.png" alt=""><span class="buttonText">Guardar este material</span></span>
@@ -913,26 +912,26 @@ ICON_BUT_PAT_ILL_FORM_spi=<span class="button"><img src="/screens/ico_gear.png" 
 ICON_BUT_PAT_ILL_spi=<span class="button"><img src="/screens/ico_gear.png" alt=""><span class="buttonText">Pr&#233;stamo Inter-bibliotecario</span></span>
 ILL_CONF_EMAIL_SUBJECT_spi=Notificaci&#243;n para la biblioteca de solicitud de pr&#233;stamo inter-bibiotecario
 ICON_BUT_RET2CRS_spi=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Volver al curso</span></span>
-#RSRV_HEADER_spi=Materiales para este curso
-#RSRV_HEADER_spi=T&#237;tulos destacados este mes
+# RSRV_HEADER_spi=Materiales para este curso
+# RSRV_HEADER_spi=T&#237;tulos destacados este mes
 ICON_BUT_PREVSCRN_spi=<span class="navButtonOneLine">Volver</span>
 ICON_BUT_RET2FEAT_spi=<span class="navButtonOneLine">Volver</span>
 FEATURED_LIST_spi=03,36,67,70,73,179,181,68|LISTADOS DESTACADOS|CATEGOR&#205;A|N&#186; de t&#237;tulos
 BIBIMAGE_TEXT_spi=Cubierta del libro
 WEBADDRESS_spi=http://www.worldcat.org/search?q=%s|I|http://www.worldcat.org/search?q=bn:%s|<span class="worldCat navButton resourceButton">Buscar en WorldCat</span>|<span class="worldCat navButton resourceButton">Buscar en WorldCat</span>|-1
-#WEBADDRESS_spi=|I|http://contentcafe2.btol.com/ContentCafeClient/ContentCafe.aspx?UserID=PUTACCOUNTHERE&amp;Password=PUTACCOUNTHERE&amp;ItemKey=%s&amp;Options=N||<span class="button"><img src="/screens/ico_info.gif" border="0" alt=""><span class="buttonText">[[ wwwoptions 00 webaddress_2alt ]]</span></span>|-1
-#WEBADDRESS_spi=http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&amp;field-keywords=%s|I|http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&field-isbn=%s|<span class="button"><img src="/screens/ico_info.gif" border="0" alt=""><span class="buttonText">[[ wwwoptions 00 webaddress_2alt ]]</span></span>|<span class="button"><img src="/screens/ico_info.gif" border="0" alt=""><span class="buttonText">[[ wwwoptions 00 webaddress_2alt ]]</span></span>|-1
+# WEBADDRESS_spi=|I|http://contentcafe2.btol.com/ContentCafeClient/ContentCafe.aspx?UserID=PUTACCOUNTHERE&amp;Password=PUTACCOUNTHERE&amp;ItemKey=%s&amp;Options=N||<span class="button"><img src="/screens/ico_info.gif" border="0" alt=""><span class="buttonText">[[ wwwoptions 00 webaddress_2alt ]]</span></span>|-1
+# WEBADDRESS_spi=http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&amp;field-keywords=%s|I|http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&field-isbn=%s|<span class="button"><img src="/screens/ico_info.gif" border="0" alt=""><span class="buttonText">[[ wwwoptions 00 webaddress_2alt ]]</span></span>|<span class="button"><img src="/screens/ico_info.gif" border="0" alt=""><span class="buttonText">[[ wwwoptions 00 webaddress_2alt ]]</span></span>|-1
 ICON_BUT_CLOSEFRAME_spi=<span class="button"><img src="/screens/ico_x.png" alt=""><span class="buttonText">Cerrar marco</span></span>
-#ICON_BUT_RESOURCELINK_spi=<div id="resourcelink"><span class="button"><img src="/screens/ico_globe.png" alt=""><span class="buttonText">Otros recursos</span></span></div>
-#ICON_BUT_RET2RESOURCE_spi=<div id="resourcelink"><span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Volver</span></span></div>
+# ICON_BUT_RESOURCELINK_spi=<div id="resourcelink"><span class="button"><img src="/screens/ico_globe.png" alt=""><span class="buttonText">Otros recursos</span></span></div>
+# ICON_BUT_RET2RESOURCE_spi=<div id="resourcelink"><span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Volver</span></span></div>
 ICON_BUT_RESOURCELINK_spi=<div id="resourcelink"><span class="navButton resourceButton path">Other Resources</span></div>
-#ICON_BUT_RESOURCELINK10_spi=<div id="resourcelink"><span class="navButton resourceButton path">Subject Guides</span></div>
-#WBHEADERTEXT_spi=Los siguientes recursos le pueden proporcionar informaci&#243;n adicional sobre<br>#ENCABEZAMIENTO#
+# ICON_BUT_RESOURCELINK10_spi=<div id="resourcelink"><span class="navButton resourceButton path">Subject Guides</span></div>
+# WBHEADERTEXT_spi=Los siguientes recursos le pueden proporcionar informaci&#243;n adicional sobre<br>#ENCABEZAMIENTO#
 ICON_PATFEED_spi=<span class="button"><img src="/screens/ico_rss.gif" alt=""><span class="buttonText">Mis Registros Feeds</span></span>
 PATFEED_CONFIG_spi=Novedades de Su Registro de la Biblioteca|Para ver m&#225;s informaci&#243;n, siga los enlaces de la biblioteca.
 PATFEED_FINES_INCURRED_RECENTLY_spi=Tiene multas o cargos nuevos
 PATFEED_HOLDS_READY_spi=Sus materiales est&#225;n listos para ser recogidos
-#PATFEED_IMAGE_spi=/screens/rss.gif|Suscribir su registro de la biblioteca a un feed.|88|31
+# PATFEED_IMAGE_spi=/screens/rss.gif|Suscribir su registro de la biblioteca a un feed.|88|31
 PATFEED_ITEMS_BOOKED_TOMORROW_spi=Materiales guardados ma&#241;ana
 PATFEED_ITEMS_DUE_SOON_spi=Materiales que vencen en seguida
 PATFEED_ITEMS_DUE_TODAY_spi=Materiales que vencen hoy
@@ -949,15 +948,15 @@ ICON_BUT_Z39_REQUEST_spi=<span class="button"><img src="/screens/ico_checkbox.pn
 ICON_BUT_Z39SEARCH_spi=<span class="button"><img src="/screens/ico_magnifyingglass.gif" alt=""><span class="buttonText">Buscar en otras bibliotecas</span></span>
 Z39BROADCAST_spi=B&#250;squeda Z39.50:Selecciones los servidores en los que quiere realizar la consulta
 ICON_BUT_RETHOME_spi=<span class="button"><img src="/screens/ico_up.gif" alt=""><span class="buttonText">Inicio</span></span>
-#SELFREG_ERROR_EMAIL_spi=circadm|example@example.org|Error de Auto-inscripci&#243;n|example@example.org
-#SELFREG_INFO_EMAIL_spi=circadm|example@example.org|Nueva inscripci&#243;n de usuario|example@example.org
+# SELFREG_ERROR_EMAIL_spi=circadm|example@example.org|Error de Auto-inscripci&#243;n|example@example.org
+# SELFREG_INFO_EMAIL_spi=circadm|example@example.org|Nueva inscripci&#243;n de usuario|example@example.org
 ICON_MFFAVS_HOME_spi=<span class="button"><img src="/screens/ico_up.gif" alt=""><span class="buttonText">Inicio</span></span>
 ICON_MFFAVS_SEARCH_spi=<span class="button"><img src="/screens/ico_magnifyingglass.png" alt=""><span class="buttonText">Buscar</span></span>
 ICON_PAT_MFFAVS_spi=<span class="button"><img src="/screens/ico_globe.png" alt=""><span class="buttonText">Mi Research Pro</span></span>
 MFFAVS_CONFIRM_spi=Su grupo, %s, se ha guardado correctamente.
 MFFAVS_DENY_spi=Funci&#243;n no disponible. Contacte con la biblioteca, por favor.
-#MFFAVS_HOME_spi=http://researchpro-[C&#211;DIGOSITIO]:[PUERTO]/iii/mfrpro-[C&#211;DIGOSITIO]/loadSearchPage.do?searchtype=simple&amp;searchpage=simple&amp;accountid=[CUENTA]&amp;accountpassword=[CUENTA]&amp;language=eng
-#MFFAVS_URL_spi=true|[CUENTA]|[CUENTA]|/mfgo/http://researchpro-[C&#211;DIGOSITIO]:[PUERTO]/iii/mfrpro-[C&#211;DIGOSITIO]/search.do
+# MFFAVS_HOME_spi=http://researchpro-[C&#211;DIGOSITIO]:[PUERTO]/iii/mfrpro-[C&#211;DIGOSITIO]/loadSearchPage.do?searchtype=simple&amp;searchpage=simple&amp;accountid=[CUENTA]&amp;accountpassword=[CUENTA]&amp;language=eng
+# MFFAVS_URL_spi=true|[CUENTA]|[CUENTA]|/mfgo/http://researchpro-[C&#211;DIGOSITIO]:[PUERTO]/iii/mfrpro-[C&#211;DIGOSITIO]/search.do
 ICON_SPELLCHECK_MORE_spi=<span class="spellcheckToolMore">m&#225;s&nbsp;&raquo;</span>
 ICON_SPELLCHECK_SEARCH_spi=<img src="/screens/ico_go.png" class="button" border="0" alt="Buscar">
 SPELLCHECK_spi=<span class="spellcheckTool">&#191;Quiso decir %a? %s </span>
