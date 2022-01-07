@@ -1,23 +1,26 @@
 function hideLinks(){
     
     var stringsToHide = new Array ();
-    stringsToHide[1] = new Array ("avila");
-	stringsToHide[2] = new Array ("mcc", "MCC");
-	stringsToHide[3] = new Array ("mcc", "MCC");
-	stringsToHide[4] = new Array ("mcc", "MCC");
-	stringsToHide[5] = new Array ("mcc", "MCC");
-    stringsToHide[6] = new Array ("wjewell", "William Jewel");
-	stringsToHide[7] = new Array ("mbts");
-    stringsToHide[8] = new Array ("rockhurst");
-    stringsToHide[9] = new Array ("SPST");
+    stringsToHide[1] = new Array ("avila", "Avila");
+    stringsToHide[2] = new Array ("mcc", "MCC");
+    stringsToHide[3] = new Array ("mcc", "MCC");
+    stringsToHide[4] = new Array ("mcc", "MCC");
+    stringsToHide[5] = new Array ("mcc", "MCC");
+    stringsToHide[6] = new Array ("wjewell", "Jewell", "WJC");
+    stringsToHide[7] = new Array ("mbts", "MBTS");
+    stringsToHide[8] = new Array ("Rockhurst");
+    stringsToHide[9] = new Array ("SPST", "Saint Paul");
     stringsToHide[10] = new Array ("KCAI");
-	stringsToHide[12] = new Array ("mcc", "MCC");
-   	stringsToHide[13] = new Array ("park");
-	stringsToHide[14] = new Array ("NTS electronic");
-	stringsToHide[16] = new Array ("Conception");
-	stringsToHide[17] = new Array ("ncmissouri");
-    stringsToHide[18] = new Array ("nwmissouri");
-    stringsToHide[19] = new Array ("missouriwestern");
+    stringsToHide[12] = new Array ("mcc", "MCC");
+    stringsToHide[13] = new Array ("Park");
+    stringsToHide[14] = new Array ("NTS", "Nazarene");
+    stringsToHide[15] = new Array ("KCU");
+    stringsToHide[16] = new Array ("Conception");
+    stringsToHide[17] = new Array ("ncmissouri", "North Central");
+    stringsToHide[18] = new Array ("nwmissouri", "Northwest");
+    stringsToHide[19] = new Array ("MWSU", "Missouri Western");
+    stringsToHide[20] = new Array ("KCKCC");
+    stringsToHide[21] = new Array ("Benedictine");
  
 
     
