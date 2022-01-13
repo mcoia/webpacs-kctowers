@@ -232,6 +232,7 @@ IMAGE_MATTYPEt=/screens/media_manuscript.gif
 IMAGE_MATTYPEu=/screens/media_emovie.gif
 IMAGE_MATTYPEv=/screens/media_efilm.gif
 IMAGE_MATTYPEx=/screens/media_equipment.gif
+IMAGE_MATTYPEy=/screens/media_govdocs.gif
 IMAGE_MATTYPE2=/screens/media_ebook.gif
 IMAGE_MATTYPE3=/screens/media_digitalaudio.gif
 IMAGE_MATTYPE4=/screens/media_software.gif
