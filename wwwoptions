@@ -54,6 +54,7 @@ BOTLOGO10_spi=@screens/botlogo_spi_s10.html
 BOTLOGO13_spi=@screens/botlogo_spi_s13.html
 BOTLOGO19=@screens/botlogo_s19.html
 BOTLOGO18=@screens/botlogo_s18.html
+BOTLOGO22=@screens/botlogo_s22.html
 ICON_BUT_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
 ICON_BUT_CLOSEWINDOW=<span class="button"><img src="/screens/ico_x.png" alt=""><span class="buttonText">Close Window</span></span>
 ICON_BUT_RET2CAT=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Return to Catalog</span></span>
@@ -98,6 +99,7 @@ TOPLOGO18=@screens/toplogo_s18.html
 TOPLOGO19=@screens/toplogo_s19.html
 TOPLOGO20=@screens/toplogo_s20.html
 TOPLOGO21=@screens/toplogo_s21.html
+TOPLOGO22=@screens/toplogo_s22.html
 
 TOPLOGO_spi=@screens/toplogo_spi.html
 TOPLOGO1_spi=@screens/toplogo_spi_s1.html
@@ -115,6 +117,7 @@ TOPLOGO13_spi=@screens/toplogo_spi_s13.html
 TOPLOGO14_spi=@screens/toplogo_spi_s14.html
 TOPLOGO15_spi=@screens/toplogo_spi_s15.html
 TOPLOGO21_spi=@screens/toplogo_spi_s21.html
+TOPLOGO22_spi=@screens/toplogo_spi_s22.html
 
 SUPPRESS_OPTION=STARTOVER,ANOTHER,NEWSRCH
 TIMEOUT=3600;URL=/search/
