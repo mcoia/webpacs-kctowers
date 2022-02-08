@@ -678,16 +678,16 @@ LOCKSCOPE=no
 # Locations
 
 LOC_w4pun=/screens/NWMSUFirstFloor2020.pdf
-LOC_w4pzn=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4pzn=/screens/NWMSUFirstFloor2022.pdf
 LOC_w4tii=/screens/NWMSUFirstFloor2020.pdf
-LOC_w4nii=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4nii=/screens/NWMSUFirstFloor2022.pdf
 LOC_w4aei=/screens/NWMSUFirstFloor2020.pdf
 LOC_w4r*=/screens/NWMSUFirstFloor2020.pdf
 LOC_w4x*=/screens/NWMSUFirstFloor2020.pdf
 LOC_w4g*=/screens/NWMSUFirstFloor2020.pdf
 LOC_w4d*=/screens/NWMSUFirstFloor2020.pdf
 LOC_w4b*=/screens/NWMSUFirstFloor2020.pdf
-LOC_w4o*=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4o*=/screens/NWMSUFirstFloor2022.pdf
 LOC_w4eii=/screens/NWMSUSecondFloor2020.pdf
 LOC_w4lii=/screens/NWMSUSecondFloor2020.pdf
 LOC_w4fii=/screens/NWMSUSecondFloor2020.pdf
