@@ -1,3 +1,86 @@
+.bibDisplayContentMain, .resourceDisplayContentMain {
+    float: left;
+    width: 43%;
+    margin-left: 1.5em;
+    display: inline;
+}
+
+.bibItems .bibItemsEntry td, .bibItems .bibItemsHeader th {
+    padding: 1px 8px;
+}
+
+.bibPager, .resourcePager, .recordPager {
+	text-align: center;
+}
+
+.briefcitDetail, .briefcitAuthDetail {
+    display: inline;
+    float: left;
+    padding: 0px 0 0px 30px;
+    width: 65%;
+}
+
+.briefcitCell {
+    background: #FFFFFF;
+    border-bottom: 1px solid #ECECEC;
+    font-size: 0.91em;
+    padding: 20px;
+}
+
+
+.briefcitJacket {
+	float: left;
+	margin: 5px 15px;
+	width: 80px;
+	display: inline;
+}
+
+.clusterLogo { padding-right: 150px; }
+
+.browseSearchtool {
+    background: url(tile_search.jpg) repeat-x bottom left;
+    border-color: #D3D3D3;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    font-size: .9em;
+    padding: 0;
+}
+
+.browseSearchtool form {
+	margin: 0;
+	width: 65%;
+}
+
+.frontPageMainColumn {
+    width:76%;
+}
+
+.frontPageNavColumn {
+    background-color:#F3F3F3;
+    border:1px solid #D3D3D3;
+    float:right;
+    margin:2% 1.75%;
+    padding:0.5%;
+    width:19%;
+    display:block;
+}
+
+.linkBanner {
+    background:#b60e3d;
+}
+
+.linkBanner .linkBannerLeft {
+	float: left;
+}
+
+.linkBanner .linkBannerRight {
+	float: right;
+}
+
+#mylist_btn2 {
+	display:none;
+}
+
 .navHeader {
     border-bottom:1px dashed #5E5D5D;
     color:#5E5D5D;
@@ -57,6 +140,15 @@
 #searchNavMenu {
     visibility:hidden;
 }
+
+#save_page_btn2 {
+	display:none;
+}
+
+td.odd {
+    background: #f5f5f5;
+}
+
 
 .topLogoImage {
     padding: 22px 0;

@@ -739,6 +739,10 @@ LOC_m2x3h=/screens/MWSU_Main_Floor_Reserves.pdf "target=_blank"
 LOC_m2x6h=/screens/MWSU_Main_Floor_Reserves.pdf "target=_blank"
 LOC_m2x7d=/screens/MWSU_Main_Floor_Reserves.pdf "target=_blank"
 
+LOC_tblai=/
+LOC_tblpi=/
+LOC_tblpb=/
+LOC_tbmfi=/
 
 #SPANISH LANG
 # ICON_INNREACH_ENCORE=<span class="navButton resourceButton">Buscar en MOBIUS</span>
