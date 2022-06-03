@@ -21,7 +21,7 @@ function hideLinks(){
     stringsToHide[19] = new Array ("MWSU", "Missouri Western");
     stringsToHide[20] = new Array ("KCKCC");
     stringsToHide[21] = new Array ("Benedictine");
- 
+    stringsToHide[22] = new Array ("Calvary");
 
     
     
