@@ -8,12 +8,15 @@ function hideLinks(){
     stringsToHide[8] = new Array ("rockhurst");
     stringsToHide[9] = new Array ("SPST");
     stringsToHide[10] = new Array ("KCAI");
-   	stringsToHide[13] = new Array ("park");
-	stringsToHide[14] = new Array ("nts");
+    stringsToHide[13] = new Array ("park");
+	stringsToHide[14] = new Array ("nts", "NTS");
 	stringsToHide[16] = new Array ("Conception Abbey");
 	stringsToHide[17] = new Array ("ncmissouri");
     stringsToHide[18] = new Array ("nwmissouri");
-    stringsToHide[19] = new Array ("missouriwestern");     
+    stringsToHide[19] = new Array ("missouriwestern");
+    stringsToHide[20] = new Array ("KCKCC");
+    stringsToHide[21] = new Array ("Benedictine");
+    stringsToHide[22] = new Array ("Calvary");	
     
     var scopeDropdown = $("#searchscope").val();
     
