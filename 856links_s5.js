@@ -9,7 +9,7 @@ function hideLinks(){
     stringsToHide[9] = new Array ("SPST");
     stringsToHide[10] = new Array ("KCAI");
     stringsToHide[13] = new Array ("park");
-	stringsToHide[14] = new Array ("nts", "NTS");
+	stringsToHide[14] = new Array ("nts", "NTS", "Nazarene");
 	stringsToHide[16] = new Array ("Conception Abbey");
 	stringsToHide[17] = new Array ("ncmissouri");
     stringsToHide[18] = new Array ("nwmissouri");

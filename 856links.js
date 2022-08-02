@@ -2,16 +2,16 @@ function hideLinks(){
     
     var stringsToHide = new Array ();
     stringsToHide[1] = new Array ("avila", "Avila");
-    stringsToHide[2] = new Array ("mcc", "MCC");
-    stringsToHide[3] = new Array ("mcc", "MCC");
-    stringsToHide[4] = new Array ("mcc", "MCC");
-    stringsToHide[5] = new Array ("mcc", "MCC");
+    stringsToHide[2] = new Array ("mcckc");
+    stringsToHide[3] = new Array ("mcckc");
+    stringsToHide[4] = new Array ("mcckc");
+    stringsToHide[5] = new Array ("mcckc");
     stringsToHide[6] = new Array ("wjewell", "Jewell", "WJC");
     stringsToHide[7] = new Array ("mbts", "MBTS");
     stringsToHide[8] = new Array ("Rockhurst");
     stringsToHide[9] = new Array ("SPST", "Saint Paul");
     stringsToHide[10] = new Array ("KCAI");
-    stringsToHide[12] = new Array ("mcc", "MCC");
+    stringsToHide[12] = new Array ("mcckc");
     stringsToHide[13] = new Array ("Park");
     stringsToHide[14] = new Array ("NTS", "Nazarene");
     stringsToHide[15] = new Array ("KCU");
