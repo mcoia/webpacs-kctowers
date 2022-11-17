@@ -677,36 +677,36 @@ LOCKSCOPE=no
 
 # Locations
 
-LOC_w4pun=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4pun=/screens/NWMSUFirstFloor2022.pdf
 LOC_w4pzn=/screens/NWMSUFirstFloor2022.pdf
-LOC_w4tii=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4tii=/screens/NWMSUFirstFloor2022.pdf
 LOC_w4nii=/screens/NWMSUFirstFloor2022.pdf
-LOC_w4aei=/screens/NWMSUFirstFloor2020.pdf
-LOC_w4r*=/screens/NWMSUFirstFloor2020.pdf
-LOC_w4x*=/screens/NWMSUFirstFloor2020.pdf
-LOC_w4g*=/screens/NWMSUFirstFloor2020.pdf
-LOC_w4d*=/screens/NWMSUFirstFloor2020.pdf
-LOC_w4b*=/screens/NWMSUFirstFloor2020.pdf
+LOC_w4aei=/screens/NWMSUFirstFloor2022.pdf
+LOC_w4r*=/screens/NWMSUFirstFloor2022.pdf
+LOC_w4x*=/screens/NWMSUFirstFloor2022.pdf
+LOC_w4g*=/screens/NWMSUFirstFloor2022.pdf
+LOC_w4d*=/screens/NWMSUFirstFloor2022.pdf
+LOC_w4b*=/screens/NWMSUFirstFloor2022.pdf
 LOC_w4o*=/screens/NWMSUFirstFloor2022.pdf
-LOC_w4eii=/screens/NWMSUSecondFloor2020.pdf
-LOC_w4lii=/screens/NWMSUSecondFloor2020.pdf
-LOC_w4fii=/screens/NWMSUSecondFloor2020.pdf
-LOC_w4gyi=/screens/NWMSUSecondFloor2020.pdf
-LOC_w4qii=/screens/NWMSUSecondFloor2020.pdf
-LOC_w4yii=/screens/NWMSUSecondFloor2020.pdf
-LOC_w4vii=/screens/NWMSUSecondFloor2020.pdf
-LOC_w4a*=/screens/NWMSUSecondFloor2020.pdf
-LOC_w4p*=/screens/NWMSUSecondFloor2020.pdf
-LOC_w4c*=/screens/NWMSUSecondFloor2020.pdf
-LOC_w4wii=/screens/NWMSUThirdFloor2020.pdf
-LOC_w4sii=/screens/NWMSUThirdFloor2020.pdf
-LOC_w4chi=/screens/NWMSUThirdFloor2020.pdf
-LOC_w4cdi=/screens/NWMSUThirdFloor2020.pdf
-LOC_w4hii=/screens/NWMSUThirdFloor2020.pdf
-LOC_w4m*=/screens/NWMSUThirdFloor2020.pdf
-LOC_w4aii=/screens/NWMSUThirdFloor2020.pdf
-LOC_w4j*=/screens/NWMSUThirdFloor2020.pdf
-LOC_w4cii=/screens/NWMSUThirdFloor2020.pdf
+LOC_w4eii=/screens/NWMSUSecondFloor2022.pdf
+LOC_w4lii=/screens/NWMSUSecondFloor2022.pdf
+LOC_w4fii=/screens/NWMSUSecondFloor2022.pdf
+LOC_w4gyi=/screens/NWMSUSecondFloor2022.pdf
+LOC_w4qii=/screens/NWMSUSecondFloor2022.pdf
+LOC_w4yii=/screens/NWMSUSecondFloor2022.pdf
+LOC_w4vii=/screens/NWMSUSecondFloor2022.pdf
+LOC_w4a*=/screens/NWMSUSecondFloor2022.pdf
+LOC_w4p*=/screens/NWMSUSecondFloor2022.pdf
+LOC_w4c*=/screens/NWMSUSecondFloor2022.pdf
+LOC_w4wii=/screens/NWMSUThirdFloor2022.jpg
+LOC_w4sii=/screens/NWMSUThirdFloor2022.jpg
+LOC_w4chi=/screens/NWMSUThirdFloor2022.jpg
+LOC_w4cdi=/screens/NWMSUThirdFloor2022.jpg
+LOC_w4hii=/screens/NWMSUThirdFloor2022.jpg
+LOC_w4m*=/screens/NWMSUThirdFloor2022.jpg
+LOC_w4aii=/screens/NWMSUThirdFloor2022.jpg
+LOC_w4j*=/screens/NWMSUThirdFloor2022.jpg
+LOC_w4cii=/screens/NWMSUThirdFloor2022.jpg
 
 LOC_m2adx=/screens/MWSU_Main_Floor_Reserves.pdf "target=_blank"
 LOC_m2avd=/screens/MWSU_Main_Floor_DVD.pdf "target=_blank"
