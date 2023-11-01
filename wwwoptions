@@ -189,7 +189,7 @@ ICON_BUT_LIMAVAIL=<span class="button"><img src="/screens/ico_list.png" alt=""><
 ICON_BUT_LIMIT=<span class="navButton">Limit/Sort Search</span>
 ICON_BUT_UNLIMAVAIL=<span class="button"><img src="/screens/ico_list.png" alt=""><span class="buttonText">Show All</span></span>
 DISPLAY_245=atd
-EXTENDED=CTK
+EXTENDED=TK
 # EXTENDED=T
 # EXTENDED_t=AT
 # EXTENDED_m=T
